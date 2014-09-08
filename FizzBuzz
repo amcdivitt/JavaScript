@@ -3,3 +3,30 @@ console.log (number)
 
 #Horrible idea. Infinite Loops. Computer hated me.
 
+for (var current = 100; ; current++) {
+  if (current % 3 == 0)
+    break;
+SyntaxError: Unexpected end of input
+for (var current = 100; ; current++)
+  if (current % 3 == 0)
+    break;
+    
+    #Still didn't work
+    
+    #more reading
+    
+for (var n=1; n <= 100; n++) {
+var output = "";
+if (n % 3 == 0)
+output += "Fizz";
+
+#This works.
+
+for (var n=1; n <= 100; n++) {
+var output = "";
+if (n % 3 == 0)
+output += "Fizz";
+  for (var n=1; n <= 100; n++) {
+    var output = "";
+    if (n % 5 == 0)
+      output += "Buzz";
