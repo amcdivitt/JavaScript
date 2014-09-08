@@ -1,0 +1,5 @@
+for (var number=0; number <=101;)
+console.log (number)
+
+#Horrible idea. Infinite Loops. Computer hated me.
+
