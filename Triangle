@@ -1,2 +1,17 @@
+Efforts:
++= "#"
+SyntaxError: Unexpected token +=
+var number=(+= "#")
+SyntaxError: Unexpected token +=
+for (var number + = "#"; number <=7 number= # +1)
+SyntaxError: Unexpected token +
+for (var number + = "#"; number <=7 number= # +1)
+console.log (number);
+
+#realized that I was not looking for a number after reading through the instructions again. Read through chapter again=
+
+Final Solution:
+
+
 for (var line = "#" ; line.length < 8 ; line += "#"
 console.log (line)
