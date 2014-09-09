@@ -1,0 +1,22 @@
+//first attempt
+
+function math.min(1, 10) {
+  if (10 > 1) {
+    return 10;
+    else return 1;
+  };
+}
+
+
+//didn't work, reread hints (also realized I had to remove the period)
+
+function min (a, b) {
+if (a < b) {
+return a
+else return b;
+}
+
+//to make this work, I utilized the console.log he had in the chapter= console.log(min(1, 10));
+// → 0
+console.log(min(0, -10));
+// → -10
