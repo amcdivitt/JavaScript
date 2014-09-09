@@ -1,7 +1,7 @@
 for (var number=0; number <=101;)
 console.log (number)
 
-#Horrible idea. Infinite Loops. Computer hated me.
+//Horrible idea. Infinite Loops. Computer hated me.
 
 for (var current = 100; ; current++) {
   if (current % 3 == 0)
@@ -11,16 +11,16 @@ for (var current = 100; ; current++)
   if (current % 3 == 0)
     break;
     
-    #Still didn't work
+  //Still didn't work
     
-    #more reading
+  //more reading
     
 for (var n=1; n <= 100; n++) {
 var output = "";
 if (n % 3 == 0)
 output += "Fizz";
 
-#This works.
+//This works.
 
 for (var n=1; n <= 100; n++) {
 var output = "";
@@ -30,3 +30,105 @@ output += "Fizz";
     var output = "";
     if (n % 5 == 0)
       output += "Buzz";
+      
+      
+1 VM266:8
+2 VM266:8
+Fizz VM266:8
+4 VM266:8
+Buzz VM266:8
+Fizz VM266:8
+7 VM266:8
+8 VM266:8
+Fizz VM266:8
+Buzz VM266:8
+11 VM266:8
+Fizz VM266:8
+13 VM266:8
+14 VM266:8
+FizzBuzz VM266:8
+16 VM266:8
+17 VM266:8
+Fizz VM266:8
+19 VM266:8
+Buzz VM266:8
+Fizz VM266:8
+22 VM266:8
+23 VM266:8
+Fizz VM266:8
+Buzz VM266:8
+26 VM266:8
+Fizz VM266:8
+28 VM266:8
+29 VM266:8
+FizzBuzz VM266:8
+31 VM266:8
+32 VM266:8
+Fizz VM266:8
+34 VM266:8
+Buzz VM266:8
+Fizz VM266:8
+37 VM266:8
+38 VM266:8
+Fizz VM266:8
+Buzz VM266:8
+41 VM266:8
+Fizz VM266:8
+43 VM266:8
+44 VM266:8
+FizzBuzz VM266:8
+46 VM266:8
+47 VM266:8
+Fizz VM266:8
+49 VM266:8
+Buzz VM266:8
+Fizz VM266:8
+52 VM266:8
+53 VM266:8
+Fizz VM266:8
+Buzz VM266:8
+56 VM266:8
+Fizz VM266:8
+58 VM266:8
+59 VM266:8
+FizzBuzz VM266:8
+61 VM266:8
+62 VM266:8
+Fizz VM266:8
+64 VM266:8
+Buzz VM266:8
+Fizz VM266:8
+67 VM266:8
+68 VM266:8
+Fizz VM266:8
+Buzz VM266:8
+71 VM266:8
+Fizz VM266:8
+73 VM266:8
+74 VM266:8
+FizzBuzz VM266:8
+76 VM266:8
+77 VM266:8
+Fizz VM266:8
+79 VM266:8
+Buzz VM266:8
+Fizz VM266:8
+82 VM266:8
+83 VM266:8
+Fizz VM266:8
+Buzz VM266:8
+86 VM266:8
+Fizz VM266:8
+88 VM266:8
+89 VM266:8
+FizzBuzz VM266:8
+91 VM266:8
+92 VM266:8
+Fizz VM266:8
+94 VM266:8
+Buzz VM266:8
+Fizz VM266:8
+97 VM266:8
+98 VM266:8
+Fizz 
+Buzz 
