@@ -16,7 +16,7 @@ return a
 else return b;
 }
 
-//to make this work, I utilized the console.log he had in the chapter= console.log(min(1, 10));
-// → 0
+console.log(min(1, 10));
 console.log(min(0, -10));
-// → -10
+
+//can't figure out why this one isn't working, exactly.
