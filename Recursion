@@ -1,0 +1,52 @@
+//first try
+
+function isEven(n) {
+  if n=% 2
+    return true;
+  else if n=% 2
+    return false;
+  else if (n < 0)
+    return isEven (-n)
+    else return is Even (n - 2)
+}
+
+console.log(isEven(50));
+// → true
+console.log(isEven(75));
+// → false
+console.log(isEven(-1));
+// → ??
+
+//second attempt
+
+function isEven(n) {
+  if (n==0)
+    return true;
+  else if (n==1)
+    return false;
+  else if (n < 0)
+    return isEven (-n)
+    else return is Even (n - 2)
+}
+
+console.log(isEven(-1));
+SyntaxError: Unexpected identifier
+
+//not sure where the error is, but according to the book, my solution is right...spacing?
+
+//third attempt
+
+function isEven(n) {
+  if (n == 0)
+    return true;
+  else if (n == 1)
+    return false;
+  else if (n < 0)
+    return isEven(-n);
+  else
+    return isEven(n - 2);
+}
+console.log(isEven(-1)); 
+false VM234:12
+
+//It worked!! Spacing.
