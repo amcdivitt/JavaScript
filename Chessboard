@@ -1,13 +1,12 @@
-# I admit, I had no idea where to even begin here.
-
-#First attempt:
+//I admit, I had no idea where to even begin here.
+//First attempt:
 
 for (var n=1)
      var output = #;
      if (var= +1)
   var output= ""
   
-  #didn't work. I'm so lost on where to go from here.
+//didn't work. I'm so lost on where to go from here.
 
 size= 8
 
@@ -16,7 +15,7 @@ var output = "";
 if (n % 2 == 0)
 output += "#";
   
-#Looked at the answer because I couldn't figure it out, and I need more explanation as to how this worked. It doesn't make
+//Looked at the answer because I couldn't figure it out, and I need more explanation as to how this worked. It doesn't make
 a whole lot of sense to me.
 
 var size = 8;
