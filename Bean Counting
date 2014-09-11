@@ -1,21 +1,22 @@
-function countChar(string, ch) {
-var counted=0
-for (var i = 0; i < string.length; i++)
-if (string.charAt(i) == ch)
-      counted += 1;
-  return counted;
+
+
+function countBs (string) {
+      var count= 0
+      
+for (var i = 0; i < string.length; i++){
+      if (string.charAt(i) === "B") count++
 }
-function countBs(string) {
-  return countChar(string, "B");
+return count
 }
 
-console.log(countBs("BABBLING"));
+function countChar (string, x ){
+var count= 0
 
-console.log(countChar("Mississippi", "s"));
-3
-4
+for (var i = 0; i < string.length; i++) {
+      if (string.charAt(i) === "x") count++
+}
+return count
+}
 
+console.log(countBs("BANANA"))
 
-
-//I'll be honest, I have no idea how he got to that solution looking at the problem, but I was able to make it work for my own
-after testing. More explanation would be helpful.
