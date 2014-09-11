@@ -1,5 +1,3 @@
-
-
 function countBs (string) {
       var count= 0
       
